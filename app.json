@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Expo_video",
+    "slug": "Expo_video",
+    "version": "1.0.0",
+    "plugins": [
+      ["expo-video", {  
+        "supportsBackgroundPlayback": true,
+        "supportsPictureInPicture": true
+      }],
+      ["expo-image-picker"] 
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c53b5d64-1e0c-4ab0-9a4c-561b7a99451f",
+        "newArchEnabled": true
+      }
+    }
+  }
+}
